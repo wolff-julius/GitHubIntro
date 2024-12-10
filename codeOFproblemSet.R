@@ -39,3 +39,11 @@ stargazer(reg1, reg2,
           dep.var.labels = "Employed",
           covariate.labels = c("Social Program", "HS Grad", "City", "Woman"),
           align = TRUE)
+
+
+
+
+#### now in another regression we want to add even further controls 
+
+reg3 <- lm(employed ~ social_program + hsgrad + city + woman + avg_benefit + earnings, data = ps3dataII)
+summary(reg3)
