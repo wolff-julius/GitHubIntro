@@ -41,3 +41,5 @@ stargazer(reg1, reg2,
           align = TRUE)
 
 
+Now we will make changes from another computer entirely - to showcase how collaborative work can look like 
+
